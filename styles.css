@@ -348,7 +348,7 @@ div.footer h6 {
 /* Responsiveness */
 @media screen and 
 (min-width:300px) and 
-(max-width:425px){
+(max-width:450px){
    body{
        margin:0 !important;
        padding:0 !important;
@@ -411,8 +411,34 @@ column;
         width:100%;
     }
 }
+@media screen and (min-width:430px) and (max-width:690px){
+    
+        div.nav-bar{
+            display:flex;
+            flex-direction: 
+    column;
+            padding:0px;
+            text-align:center;
+        }
+        ul.nav-links{
+            display:flex;
+            justify-content: space-evenly;
+        }
+        ul.nav-links li{
+            display:block;
+            margin:10px 0px;
+            padding:10px 0px;
+        }
+    
+    div.snapshot-box-content{
+        display:block;
+    }
+    .background{
+        height:330px !important;
+    }
+}
 @media screen and 
-(min-width:500px) and 
+(min-width:700px) and 
 (max-width:1024px){
     .hero-background{
         padding:4em 
