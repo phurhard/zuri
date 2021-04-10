@@ -345,3 +345,96 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+/* Responsiveness */
+@media screen and 
+(min-width:300px) and 
+(max-width:425px){
+   body{
+       margin:0 !important;
+       padding:0 !important;
+   } 
+    div.nav-bar{
+        display:flex;
+        flex-direction: 
+column;
+        padding:0px;
+        text-align:center;
+    }
+    ul.nav-links{
+        display:block;
+        margin:10px 0px;
+        padding:10px 0px;
+    }
+    .nav-links>li{
+        display:inline-block;
+        width:100%;
+    }
+    div.hero-section{
+        text-align:center 
+!important;
+        padding:1em;
+        overflow:hidden;
+    }
+    div.hero-section>div.hero-content-heading{
+        width:300px 
+!important;
+    }
+    div.hero-content-heading>p{
+        font-size:0.786em;
+    }
+    .hero-background{
+        padding:1em 
+!important;
+    }
+    .background{
+        height:350px 
+!important;
+    }
+    .hero-background-pos{
+        display:none;
+    }
+    div.snapshot-box-content{
+        display:block;
+    }
+    div.footer-input{
+        display:block;
+    }
+    input[type='text']{
+        width:100%;
+        margin-bottom:1em;
+    }
+    input[type='email']{
+        width:100%;
+        
+    }
+    textarea{
+        width:100%;
+    }
+}
+@media screen and 
+(min-width:500px) and 
+(max-width:1024px){
+    .hero-background{
+        padding:4em 
+!important;
+    }
+    .background{
+        width:700px 
+!important;
+        height:300px 
+!important;
+    }
+    div.hero-background-pos{
+        left:75%;
+    }
+    div.snapshot-box{
+        overflow:hidden;
+    }
+    .box1:hover, .box3:hover 
+{
+        border:2px rgba(121, 
+121, 141, 0.856) 
+solid;
+    }
+
+}
